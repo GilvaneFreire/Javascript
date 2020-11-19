@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>MultiSearch</title>
+</head>
+<header class="container">
+    <img src="./img/logo_multisearch.png"/>
+</header>
+<body id="meio">
+    <form class="container" action="/action_page.php">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search" name="search">
+          <div class="input-group-btn">
+            <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+          </div>
+        </div>
+    </form>
+    <div class="container">
+        <h2>Pedidos de Venda</h2>
+        <table class="table table-hover"id="venda">
+            
+        </table>
+    </div>
+    <div class="container">
+        <h2>Pedidos de Compra</h2>
+        <table class="table table-hover" id="compra">
+         
+        </table>
+    </div>
+    <div class="container">
+        <h2>Produtos</h2>
+        <table class="table table-hover" id="produtos">
+
+        </table>
+    </div>
+    <div class="container">
+        <h2>Equipamentos</h2>
+        <table class="table table-hover" id="equip">
+
+        </table>
+    </div>
+    <div class="container">
+        <h2>Mão de obra</h2>
+        <table class="table table-hover" id="mdo">
+
+        </table>
+    </div>
+
+</body>
+<script src="index.js"></script>
+</html>
